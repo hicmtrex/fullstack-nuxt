@@ -1,41 +1,26 @@
-import { defineNuxtConfig } from 'nuxt'
+import { defineNuxtConfig } from 'nuxt';
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxt/content'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
+
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config.js',
     exposeConfig: false,
+    //    config: {},
     injectPosition: 0,
     viewer: true,
   },
   colorMode: {
-    classSuffix: ''
-  },
-  content: {
-    highlight: {
-      // Theme used in all color schemes.
-
-      // OR
-      theme: 'github-dark',
-      preload: [
-        'vue',
-      ]
-    },
-    navigation: {
-      fields: ['author', 'subject', 'position']
-    }
+    classSuffix: '',
   },
   runtimeConfig: {
     private: {
       stripeSecretKey: process.env.STRIPE_SECRET_KEY,
-      db: process.env.DATABASE_URL
     },
     public: {
       appDomain: process.env.APP_DOMAIN,
-      gitHash: process.env.GITHUB_SHA,
-      releaseVersion: process.env.RELEASE_VERSION,
-    }
-  }
-})
+    },
+  },
+});
