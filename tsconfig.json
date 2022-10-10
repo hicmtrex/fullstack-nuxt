@@ -1,4 +1,11 @@
 {
   // https://v3.nuxtjs.org/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  "src": "nuxt.config.ts",
+  "use": "@nuxtjs/vercel-builder",
+  "config": {
+    "tscOptions": {
+      "sourceMap": false
+    }
+  }
 }
