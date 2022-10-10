@@ -4,7 +4,9 @@ import { defineNuxtConfig } from 'nuxt';
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
   target: 'static',
-  ssr: false,
+  generate: {
+    fallback: true,
+  },
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config.js',
