@@ -1,0 +1,263 @@
+repo_name: hicmtrex/fullstack-nuxt
+report_id: b804652b058bc00fe59ad987819871ca
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:10:04+00:00'
+requested_by: invalid-email-address
+provider: github
+branch: main
+detected_tools_count: 20
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/server/database/migrations/20221010134847_init/migration.sql
+  detection_source: server/database/migrations/20221010134847_init/migration.sql
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: Prisma
+  description: Modern Database Access for TypeScript &amp; Node.js
+  website_url: https://www.prisma.io/
+  version: 4.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/8680/Logo_Symbol_White.jpg
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/.github/workflows/deploy-int.yml
+  detection_source: ".github/workflows/deploy-int.yml"
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: "@prisma/client"
+  description: Prisma Client is an auto-generated, type-safe and modern JavaScript/TypeScript
+    ORM for Node.js that's tailored to your data
+  package_url: https://www.npmjs.com/@prisma/client
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 8.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: bcrypt
+  description: A bcrypt library for NodeJS
+  package_url: https://www.npmjs.com/bcrypt
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: nuxt
+  description: A minimalistic framework for server-rendered Vue.js applications
+  package_url: https://www.npmjs.com/nuxt
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17986/default_3c26cdeaec6eea61500856203ee8d97e81b93f76.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 16:34:46.000000000 Z
+- name: prisma
+  description: Prisma is an open-source database toolkit
+  package_url: https://www.npmjs.com/prisma
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/hicmtrex/fullstack-nuxt/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-10-10 13:57:18.000000000 Z
